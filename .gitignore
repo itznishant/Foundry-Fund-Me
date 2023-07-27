@@ -12,3 +12,9 @@ docs/
 
 # Dotenv file
 .env
+
+# Misc
+lib/
+broadcast/
+src/exampleContracts/
+.DS_Store
