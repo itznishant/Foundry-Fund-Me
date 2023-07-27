@@ -1,16 +1,9 @@
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- PROJECT LOGO -->
+<!-- PROJECT INFO -->
 <br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
+<div>
   <h3 align="center">README: FundMe Foundry Solidity</h3>
 </div>
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -35,28 +28,17 @@
 </details>
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- ABOUT -->
+# About Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+## Foundry FundMe
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+## Built With
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
@@ -68,40 +50,83 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+## Requirements
 
-### Prerequisites
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+  - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
+- [foundry](https://getfoundry.sh/)
+  - You'll know you did it right if you can run `forge --version` and you see a response like `forge 0.2.0 (816e00b 2023-03-16T00:05:26.396218Z)`
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+## Quickstart
 
-<!-- LICENSE -->
+```
+git clone https://github.com/itznishant/Foundry-Fund-Me/
+cd Foundry-Fund-Me
+forge build
+```
+
+## Usage
+
+Deploy:
+
+```
+forge script scripts/DeployFundMe.s.sol
+```
+
+
+## Testing
+
+This repo covers Unit, Forked & Integration tests. 
+
+
+```
+forge test
+```
+
+or 
+
+
+To only run tests matching specified regex pattern, use:
+
+```
+forge test --mt testFunctionName 
+```
+or
+```
+forge test --match-test testFunctionName
+```
+
+
+## Test Coverage
+
+```
+forge coverage
+```
+
+## Contact
+
+#### Nishant Vemulakonda
+
+[![Nishant Vemulakonda Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/itznish)
+
+[![Twitter Follow itznish](https://img.shields.io/twitter/follow/itznish?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2&color=1DA1F2)](https://twitter.com/itznish)
+
+Linktree - [@nishant.social](https://linktr.ee/nishant.social)
+
+GitHub - [@itznishant](https://github.com/itznishant/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Acknowledgments
+
+* [Patrick Collins (@PatrickAlphaC)](https://www.youtube.com/@PatrickAlphaC)
+* [Cyfrin Audits](https://github.com/Cyfrin)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- CONTACT -->
-## Contact
-
-Nishant Vemulakonda - [@itznish](https://twitter.com/itznish) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* [Cyfrin Audits](https://github.com/Cyfrin)
-* [Patrick Collins](https://www.youtube.com/@PatrickAlphaC)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
