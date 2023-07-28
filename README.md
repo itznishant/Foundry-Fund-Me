@@ -1,8 +1,9 @@
+<a name="readme-top"></a>
 
 <!-- PROJECT INFO -->
 <br />
 <div>
-  <h3 align="center">README: FundMe Foundry Solidity</h3>
+  <h3 align="center">FundMe: Foundry Project</h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -10,7 +11,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-project">About Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -18,12 +19,15 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#requirements">Requirements</a></li>
       </ul>
     </li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#quickstart">Quickstart</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#testing">Testing</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#license">License</a></li>
   </ol>
 </details>
 
@@ -33,16 +37,18 @@
 
 ## Foundry FundMe
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+FundMe is a web3 project built with Foundry framework & Alchemy tools and consists of a solidity smart contract deployed on a blockchain.
+
+This project is a part of Patrick Collins's (@PatrickAlphaC) Foundry Solidity course.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
+* [![Foundry][getfoundry.sh]][https://book.getfoundry.sh]
+* [![ChainLink][chain.link]][https://chain.link]
+* [![Alchemy][alchemy.com]][https://www.alchemy.com]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,12 +114,11 @@ forge coverage
 #### Nishant Vemulakonda
 
 [![Nishant Vemulakonda Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/itznish)
-
 [![Twitter Follow itznish](https://img.shields.io/twitter/follow/itznish?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2&color=1DA1F2)](https://twitter.com/itznish)
+[![Nishant Vemulakonda LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/nishant-vemulakonda)
+[![Nishant Vemulakonda GitHub followers](https://img.shields.io/github/followers/itznishant?label=GITHUB&style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=blue)](https://github.com/itznishant/)
 
-Linktree - [@nishant.social](https://linktr.ee/nishant.social)
-
-GitHub - [@itznishant](https://github.com/itznishant/)
+Linktree: [@nishant.social](https://linktr.ee/nishant.social)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,6 +127,8 @@ GitHub - [@itznishant](https://github.com/itznishant/)
 
 * [Patrick Collins (@PatrickAlphaC)](https://www.youtube.com/@PatrickAlphaC)
 * [Cyfrin Audits](https://github.com/Cyfrin)
+* [Foundry](https://book.getfoundry.sh)
+* [Alchemy](https://www.alchemy.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
