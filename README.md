@@ -46,9 +46,13 @@ This project is a part of Patrick Collins's (@PatrickAlphaC) Foundry Solidity co
 
 ## Built With
 
-* [![Foundry][getfoundry.sh]][https://book.getfoundry.sh]
-* [![ChainLink][chain.link]][https://chain.link]
-* [![Alchemy][alchemy.com]][https://www.alchemy.com]
+[![Solidity][soliditylang]][solidity-url]
+
+[![Foundry][getfoundry]][foundry-url]
+
+[![ChainLink][chain.link]][chainlink-url]
+
+[![Alchemy][alchemy.com]][alchemy-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,8 +131,6 @@ Linktree: [@nishant.social](https://linktr.ee/nishant.social)
 
 * [Patrick Collins (@PatrickAlphaC)](https://www.youtube.com/@PatrickAlphaC)
 * [Cyfrin Audits](https://github.com/Cyfrin)
-* [Foundry](https://book.getfoundry.sh)
-* [Alchemy](https://www.alchemy.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,3 +139,17 @@ Linktree: [@nishant.social](https://linktr.ee/nishant.social)
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[soliditylang]: https://img.shields.io/badge/SOLIDITY-black?style=for-the-badge&logo=solidity&logoColor=white
+[solidity-url]: https://soliditylang.org/
+[getfoundry]: https://img.shields.io/badge/FOUNDRY-gray?style=for-the-badge&logo=foundry&logoColor=white
+[foundry-url]: https://getfoundry.sh/
+[chain.link]: https://img.shields.io/badge/CHAINLINK-darkblue?style=for-the-badge&logo=chainlink&logoColor=white
+[chainlink-url]: https://chain.link/
+[alchemy.com]: https://img.shields.io/badge/alchemy-4b43e8?style=for-the-badge&logo=alchemy&logoColor=white
+[alchemy-url]: https://www.alchemy.com/
+
+
